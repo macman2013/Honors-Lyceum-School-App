@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCFA2E21B9669890063A995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2E11B9669890063A995 /* AppDelegate.swift */; };
+		CFCFA2E41B9669890063A995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2E31B9669890063A995 /* ViewController.swift */; };
+		CFCFA2E71B9669890063A995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2E51B9669890063A995 /* Main.storyboard */; };
+		CFCFA2E91B9669890063A995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2E81B9669890063A995 /* Images.xcassets */; };
+		CFCFA2EC1B9669890063A995 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */; };
+		CFCFA2F81B9669890063A995 /* School_of_the_FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCFA2F21B9669890063A995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCFA2D41B9669890063A995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCFA2DB1B9669890063A995;
+			remoteInfo = "School of the Future";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCFA2DC1B9669890063A995 /* School of the Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School of the Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCFA2E01B9669890063A995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCFA2E11B9669890063A995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCFA2E31B9669890063A995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFCFA2E61B9669890063A995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCFA2E81B9669890063A995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFCFA2EB1B9669890063A995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFCFA2F11B9669890063A995 /* School of the FutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School of the FutureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCFA2F61B9669890063A995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_of_the_FutureTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCFA2D91B9669890063A995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFA2EE1B9669890063A995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCFA2D31B9669890063A995 = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2DE1B9669890063A995 /* School of the Future */,
+				CFCFA2F41B9669890063A995 /* School of the FutureTests */,
+				CFCFA2DD1B9669890063A995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCFA2DD1B9669890063A995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2DC1B9669890063A995 /* School of the Future.app */,
+				CFCFA2F11B9669890063A995 /* School of the FutureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCFA2DE1B9669890063A995 /* School of the Future */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2E11B9669890063A995 /* AppDelegate.swift */,
+				CFCFA2E31B9669890063A995 /* ViewController.swift */,
+				CFCFA2E51B9669890063A995 /* Main.storyboard */,
+				CFCFA2E81B9669890063A995 /* Images.xcassets */,
+				CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */,
+				CFCFA2DF1B9669890063A995 /* Supporting Files */,
+			);
+			path = "School of the Future";
+			sourceTree = "<group>";
+		};
+		CFCFA2DF1B9669890063A995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2E01B9669890063A995 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFCFA2F41B9669890063A995 /* School of the FutureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */,
+				CFCFA2F51B9669890063A995 /* Supporting Files */,
+			);
+			path = "School of the FutureTests";
+			sourceTree = "<group>";
+		};
+		CFCFA2F51B9669890063A995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFA2F61B9669890063A995 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCFA2DB1B9669890063A995 /* School of the Future */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCFA2FB1B9669890063A995 /* Build configuration list for PBXNativeTarget "School of the Future" */;
+			buildPhases = (
+				CFCFA2D81B9669890063A995 /* Sources */,
+				CFCFA2D91B9669890063A995 /* Frameworks */,
+				CFCFA2DA1B9669890063A995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "School of the Future";
+			productName = "School of the Future";
+			productReference = CFCFA2DC1B9669890063A995 /* School of the Future.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCFA2F01B9669890063A995 /* School of the FutureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCFA2FE1B9669890063A995 /* Build configuration list for PBXNativeTarget "School of the FutureTests" */;
+			buildPhases = (
+				CFCFA2ED1B9669890063A995 /* Sources */,
+				CFCFA2EE1B9669890063A995 /* Frameworks */,
+				CFCFA2EF1B9669890063A995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCFA2F31B9669890063A995 /* PBXTargetDependency */,
+			);
+			name = "School of the FutureTests";
+			productName = "School of the FutureTests";
+			productReference = CFCFA2F11B9669890063A995 /* School of the FutureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCFA2D41B9669890063A995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Honors 3034";
+				TargetAttributes = {
+					CFCFA2DB1B9669890063A995 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CFCFA2F01B9669890063A995 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CFCFA2DB1B9669890063A995;
+					};
+				};
+			};
+			buildConfigurationList = CFCFA2D71B9669890063A995 /* Build configuration list for PBXProject "School of the Future" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCFA2D31B9669890063A995;
+			productRefGroup = CFCFA2DD1B9669890063A995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCFA2DB1B9669890063A995 /* School of the Future */,
+				CFCFA2F01B9669890063A995 /* School of the FutureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCFA2DA1B9669890063A995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFA2E71B9669890063A995 /* Main.storyboard in Resources */,
+				CFCFA2EC1B9669890063A995 /* LaunchScreen.xib in Resources */,
+				CFCFA2E91B9669890063A995 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFA2EF1B9669890063A995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCFA2D81B9669890063A995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFA2E41B9669890063A995 /* ViewController.swift in Sources */,
+				CFCFA2E21B9669890063A995 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFA2ED1B9669890063A995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFA2F81B9669890063A995 /* School_of_the_FutureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCFA2F31B9669890063A995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCFA2DB1B9669890063A995 /* School of the Future */;
+			targetProxy = CFCFA2F21B9669890063A995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCFA2E51B9669890063A995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCFA2E61B9669890063A995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCFA2EB1B9669890063A995 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCFA2F91B9669890063A995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCFA2FA1B9669890063A995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCFA2FC1B9669890063A995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "School of the Future/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFCFA2FD1B9669890063A995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "School of the Future/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFCFA2FF1B9669890063A995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "School of the FutureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School of the Future.app/School of the Future";
+			};
+			name = Debug;
+		};
+		CFCFA3001B9669890063A995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "School of the FutureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School of the Future.app/School of the Future";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCFA2D71B9669890063A995 /* Build configuration list for PBXProject "School of the Future" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFA2F91B9669890063A995 /* Debug */,
+				CFCFA2FA1B9669890063A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCFA2FB1B9669890063A995 /* Build configuration list for PBXNativeTarget "School of the Future" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFA2FC1B9669890063A995 /* Debug */,
+				CFCFA2FD1B9669890063A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCFA2FE1B9669890063A995 /* Build configuration list for PBXNativeTarget "School of the FutureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFA2FF1B9669890063A995 /* Debug */,
+				CFCFA3001B9669890063A995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCFA2D41B9669890063A995 /* Project object */;
+}
