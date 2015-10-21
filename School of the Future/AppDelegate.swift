@@ -16,7 +16,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let loggedInKeyConstant = "loggedInKey"
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let loggedInStatus = defaults.boolForKey(loggedInKeyConstant)
+        if loggedInStatus == defaults.boolForKey(loggedInKeyConstant) {
+            print(loggedInStatus)
+            
+            if loggedInStatus == true {
+                // get your storyboard
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                
+                // instantiate your desired ViewController
+                let rootController = storyboard.instantiateViewControllerWithIdentifier("HomeNavController") 
+                
+                // Because self.window is an optional you should check it's value first and assign your rootViewController
+                if self.window != nil {
+                    self.window!.rootViewController = rootController
+                }
+            }
+        }
+        
         return true
+    }
+    
+    func logOut ()
+    {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        // instantiate your desired ViewController
+        let rootController = storyboard.instantiateViewControllerWithIdentifier("loginNavController")
+        
+        // Because self.window is an optional you should check it's value first and assign your rootViewController
+        if self.window != nil {
+            self.window!.rootViewController = rootController
+        }
+
     }
 
     func applicationWillResignActive(application: UIApplication) {

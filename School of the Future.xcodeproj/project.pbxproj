@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1AD15C1BC172460010C0CA /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD15B1BC172460010C0CA /* CalendarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD15E1BC172D50010C0CA /* AssignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD15D1BC172D50010C0CA /* AssignViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD1601BC172EB0010C0CA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD15F1BC172EB0010C0CA /* ChatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD1621BC172FC0010C0CA /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1611BC172FC0010C0CA /* ReportsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD1641BC173110010C0CA /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1631BC173110010C0CA /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD1661BC173280010C0CA /* ExtraCurricularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1651BC173280010C0CA /* ExtraCurricularViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1AD16A1BC1760A0010C0CA /* CustomNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1691BC1760A0010C0CA /* CustomNavViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1D6A301BB8968700AD2321 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D6A2F1BB8968700AD2321 /* ReadViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF35D2461BA5E1E800C0DA6F /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = CF35D2441BA5E1E800C0DA6F /* check.png */; };
+		CF35D2471BA5E1E800C0DA6F /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF35D2451BA5E1E800C0DA6F /* todo.png */; };
+		CF4CB00A1BD3E99C008FA05D /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4CB0091BD3E99C008FA05D /* FinanceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF9F8AE11BD74F7300F19765 /* NavExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F8AE01BD74F7300F19765 /* NavExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		CFC5B5431BC70D17000AC624 /* Calendar final.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC5B5421BC70D17000AC624 /* Calendar final.jpeg */; settings = {ASSET_TAGS = (); }; };
+		CFC5B5451BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CFC5B5441BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf */; settings = {ASSET_TAGS = (); }; };
 		CFCFA2E21B9669890063A995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2E11B9669890063A995 /* AppDelegate.swift */; };
 		CFCFA2E41B9669890063A995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2E31B9669890063A995 /* ViewController.swift */; };
 		CFCFA2E71B9669890063A995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2E51B9669890063A995 /* Main.storyboard */; };
 		CFCFA2E91B9669890063A995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2E81B9669890063A995 /* Images.xcassets */; };
 		CFCFA2EC1B9669890063A995 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */; };
 		CFCFA2F81B9669890063A995 /* School_of_the_FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */; };
+		CFE315AF1BD2F680005630FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE315AE1BD2F680005630FF /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE315B51BD332F4005630FF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE315B41BD332F4005630FF /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		CFE390281BD35AF700A0EC80 /* AssignTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390271BD35AF700A0EC80 /* AssignTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE3902A1BD35FEA00A0EC80 /* AssignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390291BD35FEA00A0EC80 /* AssignTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE3902C1BD3655A00A0EC80 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3902B1BD3655A00A0EC80 /* MessagesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE3902F1BD36FEC00A0EC80 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3902E1BD36FEC00A0EC80 /* ReportTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE390321BD371B800A0EC80 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390311BD371B800A0EC80 /* ReportTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CFE390341BD3735800A0EC80 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390331BD3735800A0EC80 /* ChatTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +48,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF1AD15B1BC172460010C0CA /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CF1AD15D1BC172D50010C0CA /* AssignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignViewController.swift; sourceTree = "<group>"; };
+		CF1AD15F1BC172EB0010C0CA /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CF1AD1611BC172FC0010C0CA /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		CF1AD1631BC173110010C0CA /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		CF1AD1651BC173280010C0CA /* ExtraCurricularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraCurricularViewController.swift; sourceTree = "<group>"; };
+		CF1AD1691BC1760A0010C0CA /* CustomNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavViewController.swift; sourceTree = "<group>"; };
+		CF1D6A2F1BB8968700AD2321 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		CF35D2441BA5E1E800C0DA6F /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		CF35D2451BA5E1E800C0DA6F /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
+		CF4CB0091BD3E99C008FA05D /* FinanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		CF9F8AE01BD74F7300F19765 /* NavExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavExtension.swift; sourceTree = "<group>"; };
+		CFC5B5421BC70D17000AC624 /* Calendar final.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calendar final.jpeg"; sourceTree = "<group>"; };
+		CFC5B5441BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TYRONE THE HORRIBLE.pdf"; sourceTree = "<group>"; };
 		CFCFA2DC1B9669890063A995 /* School of the Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School of the Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCFA2E01B9669890063A995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFCFA2E11B9669890063A995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFCFA2E31B9669890063A995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFCFA2E31B9669890063A995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
 		CFCFA2E61B9669890063A995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFCFA2E81B9669890063A995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CFCFA2EB1B9669890063A995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CFCFA2F11B9669890063A995 /* School of the FutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School of the FutureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCFA2F61B9669890063A995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_of_the_FutureTests.swift; sourceTree = "<group>"; };
+		CFE315AE1BD2F680005630FF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFE315B41BD332F4005630FF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CFE390271BD35AF700A0EC80 /* AssignTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignTableViewController.swift; sourceTree = "<group>"; };
+		CFE390291BD35FEA00A0EC80 /* AssignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignTableViewCell.swift; sourceTree = "<group>"; };
+		CFE3902B1BD3655A00A0EC80 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		CFE3902E1BD36FEC00A0EC80 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		CFE390311BD371B800A0EC80 /* ReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		CFE390331BD3735800A0EC80 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +121,23 @@
 		CFCFA2DE1B9669890063A995 /* School of the Future */ = {
 			isa = PBXGroup;
 			children = (
+				CFE390351BD3735E00A0EC80 /* Chat */,
+				CFE390301BD36FF500A0EC80 /* Reports */,
+				CFE3902D1BD36F9900A0EC80 /* Assignments */,
 				CFCFA2E11B9669890063A995 /* AppDelegate.swift */,
 				CFCFA2E31B9669890063A995 /* ViewController.swift */,
+				CF1AD1691BC1760A0010C0CA /* CustomNavViewController.swift */,
+				CF9F8AE01BD74F7300F19765 /* NavExtension.swift */,
 				CFCFA2E51B9669890063A995 /* Main.storyboard */,
+				CFE3902B1BD3655A00A0EC80 /* MessagesTableViewController.swift */,
+				CF4CB0091BD3E99C008FA05D /* FinanceViewController.swift */,
+				CFE315AE1BD2F680005630FF /* LoginViewController.swift */,
+				CF1AD1631BC173110010C0CA /* ActivityViewController.swift */,
+				CF1AD1651BC173280010C0CA /* ExtraCurricularViewController.swift */,
+				CF1AD15B1BC172460010C0CA /* CalendarViewController.swift */,
+				CF1D6A2F1BB8968700AD2321 /* ReadViewController.swift */,
+				CF35D2441BA5E1E800C0DA6F /* check.png */,
+				CF35D2451BA5E1E800C0DA6F /* todo.png */,
 				CFCFA2E81B9669890063A995 /* Images.xcassets */,
 				CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */,
 				CFCFA2DF1B9669890063A995 /* Supporting Files */,
@@ -90,7 +148,10 @@
 		CFCFA2DF1B9669890063A995 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFE315B41BD332F4005630FF /* Settings.bundle */,
 				CFCFA2E01B9669890063A995 /* Info.plist */,
+				CFC5B5421BC70D17000AC624 /* Calendar final.jpeg */,
+				CFC5B5441BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +171,35 @@
 				CFCFA2F61B9669890063A995 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFE3902D1BD36F9900A0EC80 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				CFE390291BD35FEA00A0EC80 /* AssignTableViewCell.swift */,
+				CFE390271BD35AF700A0EC80 /* AssignTableViewController.swift */,
+				CF1AD15D1BC172D50010C0CA /* AssignViewController.swift */,
+			);
+			name = Assignments;
+			sourceTree = "<group>";
+		};
+		CFE390301BD36FF500A0EC80 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				CFE390311BD371B800A0EC80 /* ReportTableViewController.swift */,
+				CFE3902E1BD36FEC00A0EC80 /* ReportTableViewCell.swift */,
+				CF1AD1611BC172FC0010C0CA /* ReportsViewController.swift */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		CFE390351BD3735E00A0EC80 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CF1AD15F1BC172EB0010C0CA /* ChatViewController.swift */,
+				CFE390331BD3735800A0EC80 /* ChatTableViewController.swift */,
+			);
+			name = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +246,13 @@
 		CFCFA2D41B9669890063A995 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Honors 3034";
 				TargetAttributes = {
 					CFCFA2DB1B9669890063A995 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = TX25434PF3;
 					};
 					CFCFA2F01B9669890063A995 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,8 +284,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE315B51BD332F4005630FF /* Settings.bundle in Resources */,
 				CFCFA2E71B9669890063A995 /* Main.storyboard in Resources */,
+				CFC5B5431BC70D17000AC624 /* Calendar final.jpeg in Resources */,
+				CF35D2471BA5E1E800C0DA6F /* todo.png in Resources */,
 				CFCFA2EC1B9669890063A995 /* LaunchScreen.xib in Resources */,
+				CF35D2461BA5E1E800C0DA6F /* check.png in Resources */,
+				CFC5B5451BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf in Resources */,
 				CFCFA2E91B9669890063A995 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +309,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE390281BD35AF700A0EC80 /* AssignTableViewController.swift in Sources */,
+				CFE315AF1BD2F680005630FF /* LoginViewController.swift in Sources */,
+				CF1AD1621BC172FC0010C0CA /* ReportsViewController.swift in Sources */,
+				CF9F8AE11BD74F7300F19765 /* NavExtension.swift in Sources */,
+				CFE3902F1BD36FEC00A0EC80 /* ReportTableViewCell.swift in Sources */,
+				CFE3902C1BD3655A00A0EC80 /* MessagesTableViewController.swift in Sources */,
+				CF1AD15C1BC172460010C0CA /* CalendarViewController.swift in Sources */,
+				CF1AD15E1BC172D50010C0CA /* AssignViewController.swift in Sources */,
+				CF4CB00A1BD3E99C008FA05D /* FinanceViewController.swift in Sources */,
+				CF1AD1641BC173110010C0CA /* ActivityViewController.swift in Sources */,
+				CF1AD1661BC173280010C0CA /* ExtraCurricularViewController.swift in Sources */,
+				CFE3902A1BD35FEA00A0EC80 /* AssignTableViewCell.swift in Sources */,
 				CFCFA2E41B9669890063A995 /* ViewController.swift in Sources */,
+				CF1D6A301BB8968700AD2321 /* ReadViewController.swift in Sources */,
+				CF1AD16A1BC1760A0010C0CA /* CustomNavViewController.swift in Sources */,
+				CFE390341BD3735800A0EC80 /* ChatTableViewController.swift in Sources */,
+				CFE390321BD371B800A0EC80 /* ReportTableViewController.swift in Sources */,
+				CF1AD1601BC172EB0010C0CA /* ChatViewController.swift in Sources */,
 				CFCFA2E21B9669890063A995 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,9 +456,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "School of the Future/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -352,9 +468,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "School of the Future/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -411,6 +529,7 @@
 				CFCFA2FD1B9669890063A995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFCFA2FE1B9669890063A995 /* Build configuration list for PBXNativeTarget "School of the FutureTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +538,7 @@
 				CFCFA3001B9669890063A995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
