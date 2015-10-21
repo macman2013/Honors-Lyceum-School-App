@@ -10,7 +10,7 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>App Settings</string>
+			<string>Application Settings</string>
 			<key>FooterText</key>
 			<string>Turning this switch off will log the current user out and delete all data from this device.</string>
 		</dict>

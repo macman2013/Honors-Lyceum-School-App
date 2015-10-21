@@ -14,6 +14,7 @@
 		CF1AD1641BC173110010C0CA /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1631BC173110010C0CA /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CF1AD1661BC173280010C0CA /* ExtraCurricularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1651BC173280010C0CA /* ExtraCurricularViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CF1AD16A1BC1760A0010C0CA /* CustomNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AD1691BC1760A0010C0CA /* CustomNavViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1CD7811BD769090038C62E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF1CD7801BD769090038C62E /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 		CF1D6A301BB8968700AD2321 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D6A2F1BB8968700AD2321 /* ReadViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CF35D2461BA5E1E800C0DA6F /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = CF35D2441BA5E1E800C0DA6F /* check.png */; };
 		CF35D2471BA5E1E800C0DA6F /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF35D2451BA5E1E800C0DA6F /* todo.png */; };
@@ -28,7 +29,6 @@
 		CFCFA2EC1B9669890063A995 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCFA2EA1B9669890063A995 /* LaunchScreen.xib */; };
 		CFCFA2F81B9669890063A995 /* School_of_the_FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */; };
 		CFE315AF1BD2F680005630FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE315AE1BD2F680005630FF /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		CFE315B51BD332F4005630FF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE315B41BD332F4005630FF /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 		CFE390281BD35AF700A0EC80 /* AssignTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390271BD35AF700A0EC80 /* AssignTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CFE3902A1BD35FEA00A0EC80 /* AssignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE390291BD35FEA00A0EC80 /* AssignTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		CFE3902C1BD3655A00A0EC80 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3902B1BD3655A00A0EC80 /* MessagesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -55,6 +55,7 @@
 		CF1AD1631BC173110010C0CA /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		CF1AD1651BC173280010C0CA /* ExtraCurricularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraCurricularViewController.swift; sourceTree = "<group>"; };
 		CF1AD1691BC1760A0010C0CA /* CustomNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavViewController.swift; sourceTree = "<group>"; };
+		CF1CD7801BD769090038C62E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CF1D6A2F1BB8968700AD2321 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		CF35D2441BA5E1E800C0DA6F /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		CF35D2451BA5E1E800C0DA6F /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		CFCFA2F61B9669890063A995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFCFA2F71B9669890063A995 /* School_of_the_FutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_of_the_FutureTests.swift; sourceTree = "<group>"; };
 		CFE315AE1BD2F680005630FF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CFE315B41BD332F4005630FF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CFE390271BD35AF700A0EC80 /* AssignTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignTableViewController.swift; sourceTree = "<group>"; };
 		CFE390291BD35FEA00A0EC80 /* AssignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignTableViewCell.swift; sourceTree = "<group>"; };
 		CFE3902B1BD3655A00A0EC80 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		CFCFA2DF1B9669890063A995 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFE315B41BD332F4005630FF /* Settings.bundle */,
+				CF1CD7801BD769090038C62E /* Settings.bundle */,
 				CFCFA2E01B9669890063A995 /* Info.plist */,
 				CFC5B5421BC70D17000AC624 /* Calendar final.jpeg */,
 				CFC5B5441BC710A3000AC624 /* TYRONE THE HORRIBLE.pdf */,
@@ -284,7 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE315B51BD332F4005630FF /* Settings.bundle in Resources */,
+				CF1CD7811BD769090038C62E /* Settings.bundle in Resources */,
 				CFCFA2E71B9669890063A995 /* Main.storyboard in Resources */,
 				CFC5B5431BC70D17000AC624 /* Calendar final.jpeg in Resources */,
 				CF35D2471BA5E1E800C0DA6F /* todo.png in Resources */,
