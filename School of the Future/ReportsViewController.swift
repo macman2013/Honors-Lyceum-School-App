@@ -18,7 +18,7 @@ class ReportsViewController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 255/255, green: 129/255, blue: 0/255, alpha: 1)
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.translucent = false
-        self.title = "Reports"
+        self.title = "Progress"
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
     }
     

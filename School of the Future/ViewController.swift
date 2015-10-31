@@ -98,7 +98,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let fourthImageName = "reports.png"
         let fourthBg = UIImage(named: fourthImageName)
         fourthButton.setBackgroundImage(fourthBg, forState: UIControlState.Normal)
-        fourthButton.setTitle("Reports", forState: UIControlState.Normal)
+        fourthButton.setTitle("Progress", forState: UIControlState.Normal)
         fourthButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         fourthButton.titleLabel!.font = UIFont.systemFontOfSize(26)
         fourthButton.titleEdgeInsets.top = 200
